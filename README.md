@@ -110,7 +110,7 @@ Let's break down the parts of this message.
 This is a simple configuration, for more complex configurations, modifiers are
 combined with groups and filters to compose the desired behavior.
 
-To configure Martian, `POST` the JSON to `http://martian.proxy/modifiers`. You'll
+To configure Martian, `POST` the JSON to `http://martian.proxy/configure`. You'll
 want to use whatever mechanism your language of choice provides you to make
 HTTP requests, but for demo purposes, curl works (assuming your configuration
 is in a file called `modifier.json`).
